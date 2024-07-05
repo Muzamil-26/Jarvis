@@ -29,7 +29,7 @@ def gemini(c):
 # # defaults to getting the key using os.environ.get("OPENAI_API_KEY")
 # # if you saved the key under a different environment variable name, you can do something like:
 #                 client = OpenAI(
-#                 api_key="sk-proj-qSfaANftWeKaIz516TINT3BlbkFJEyv72UbjAYbAL31f2hkl",
+#                 api_key="APY_KEY",
 #                 )
 
 #                 completion = client.chat.completions.create(
