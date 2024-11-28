@@ -16,7 +16,7 @@ def speak(text):
 
 
 def gemini(c):
-            genai.configure(api_key="AIzaSyD83IDGQUTyMmjcUym_FhAM0ED3-xTZbr4")
+            genai.configure(api_key="you-api-key")
             model = genai.GenerativeModel('gemini-1.5-flash')
 
             response = model.generate_content(c)
